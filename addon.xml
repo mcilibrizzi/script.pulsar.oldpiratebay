@@ -9,10 +9,10 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Pulsar example for the guide Provider</summary>
-    <description lang="en">This provider allows to choose the quality of video torrent which will feed Pulsar.[CR]You need to config the add-on before using Pulsar[CR]It works with Movies and some TV Shows[CR]I won't keep your upload quota, you need to use another software.</description>
+    <description lang="en">This provider has just been created for fun.[CR]You should feel free to use it, but keep in mind that there are a lot of major bugs and missing features</description>
     <language></language>
     <platform>all</platform>
-    <disclaimer lang="en">It only works with Pulsar 0.2![CR]It is just for educational purpose[CR]Check if it is illegal in your country to use.</disclaimer>
+    <disclaimer lang="en">Check if it is illegal in your country to use.</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
 </addon>
