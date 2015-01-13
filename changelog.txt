@@ -1,0 +1,10 @@
+Version 0.0.3
+Redefine extraxt_magnet function for better torrent selection
+Still miss the integration for config file
+
+Version 0.0.2
+Add settings for video quality selection
+
+Version 0.0.1
+First release of odlpiratebay Pulsar Provider
+Alpha Version
