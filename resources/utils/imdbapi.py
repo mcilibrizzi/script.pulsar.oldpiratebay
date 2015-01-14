@@ -2,6 +2,7 @@ import urllib2
 import urllib
 import re
 import json
+import unicodedata
 
 def title_translate(imdbid,year):
     lang = "it"
@@ -13,6 +14,6 @@ def title_translate(imdbid,year):
     for movie_results in data["movie_results"]:
         for token in movie_results:
             if token == "title":
-                movie_info["title"]=movie_results[token]
+                movie_info["title"] = unicodedata.normalize('NFKD',movie_results[token]).encode('ascii','ignore')
 
     return movie_info
