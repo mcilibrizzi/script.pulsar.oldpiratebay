@@ -1,3 +1,6 @@
+Version 0.0.4
+Add support for movie title translation(ONLY ITALIAN)[THANKS TO https://www.themoviedb.org/]
+
 Version 0.0.3
 Redefine extraxt_magnet function for better torrent selection
 Still miss the integration for config file

@@ -50,7 +50,7 @@ def search_episode(episode):
 
 
 def search_movie(movie):
-    return search("%(title)s %(year)d ITA" % movie)
+    return search("%(title)s %(year)d" % title_translate(movie["imdb_id"],movie["year"]))
 
 
 provider.register(search, search_movie, search_episode)

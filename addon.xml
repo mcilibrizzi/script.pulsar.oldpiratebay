@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.pulsar.oldpiratebay" name="Pulsar OldPirateBay Provider" version="0.0.3" provider-name="mcilibrizzi">
+<addon id="script.pulsar.oldpiratebay" name="Pulsar OldPirateBay Provider" version="0.0.4" provider-name="mcilibrizzi">
   <requires>
     <import addon="xbmc.python" version="2.12.0"/>
     <import addon="plugin.video.pulsar" version="0.4"/>
