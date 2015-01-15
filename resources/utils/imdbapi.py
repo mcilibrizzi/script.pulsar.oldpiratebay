@@ -10,10 +10,16 @@ def title_translate(imdbid,year):
                                 % (imdbid,lang))
     data = json.load(json_data)
     movie_info  = {"title":"", "year":year}
+    original_title=""
 
     for movie_results in data["movie_results"]:
         for token in movie_results:
             if token == "title":
                 movie_info["title"] = unicodedata.normalize('NFKD',movie_results[token]).encode('ascii','ignore')
+            if token == "original_title":
+                original_title = movie_info[token]
+
+    if original_title == movie_info["title"]:
+        movie_info["title"] = movie_info["title"]+"ITA"
 
     return movie_info
