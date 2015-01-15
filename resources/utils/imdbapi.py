@@ -19,7 +19,7 @@ def title_translate(imdbid,year):
             if token == "original_title":
                 original_title = movie_info[token]
 
-    if original_title == movie_info["title"]:
+    if original_title.lower() == movie_info["title"].lower():
         movie_info["title"] = movie_info["title"]+"ITA"
 
     return movie_info
